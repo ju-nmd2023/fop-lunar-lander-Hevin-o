@@ -3,7 +3,7 @@ let stars = [];
 
 function setup() {
 createCanvas(600,700);
-frameRate(60);
+frameRate(50);
 //code for the stars in the background
 for (let i = 0; i < 300; i++) {
     const star = {
@@ -174,7 +174,7 @@ function draw(){
         star.y = 0; 
     } 
 }
-   moon(); 
+   moon();  
    plant(100, plantY);  
 
 //to make it fly
@@ -185,7 +185,7 @@ function draw(){
     if (keyIsDown (32)) {
         velocity = velocity - acceleration*3;
     }  
- }
+ } 
  
  //When you die/win/end the game
     if (plantY >= 250){
