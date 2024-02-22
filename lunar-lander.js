@@ -1,5 +1,9 @@
 
 let stars = [];
+
+function setup() {
+createCanvas(600,700);
+frameRate(60);
 //code for the stars in the background
 for (let i = 0; i < 300; i++) {
     const star = {
@@ -11,6 +15,7 @@ for (let i = 0; i < 300; i++) {
     stars.push(star);
  }
 
+}
 
 //background
 
@@ -20,7 +25,7 @@ function scenery(){
     rect(0, 0, width, height);
     pop();
    
-}
+} 
 //the moon
 function moon(){
     push();
