@@ -3,7 +3,7 @@ let stars = [];
 
 function setup() {
 createCanvas(600,700);
-frameRate(50);
+frameRate(40);
 //code for the stars in the background
 for (let i = 0; i < 300; i++) {
     const star = {
