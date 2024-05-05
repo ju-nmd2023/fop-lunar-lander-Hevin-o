@@ -173,7 +173,7 @@ function draw(){
     if(star.y > height){
         star.y = 0; 
     } 
-}
+}  
    moon();  
    plant(100, plantY);  
 
@@ -213,4 +213,4 @@ function draw(){
     } 
   }  
    
- 
+   
